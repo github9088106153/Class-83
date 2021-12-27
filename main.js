@@ -4,6 +4,7 @@ var last_position_of_x, last_position_of_y, color, width_of_line;
 
     canvas = document.getElementById('myCanvas');
     ctx = canvas.getContext("2d");
+var width=screen.width;
     new_width=screen.width-70;
     new_height=screen.height-300;
   if (width<992)
